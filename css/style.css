@@ -222,6 +222,58 @@ a:focus {
   color: #ffbe33;
 }
 
+.modal {
+  display: none; /* Esconde o modal por padrão */
+  position: fixed; /* Posicionamento fixo para ficar no topo */
+  z-index: 1; /* Define a ordem de empilhamento */
+  left: 0;
+  top: 0;
+  width: 100%; /* Largura total */
+  height: 100%; /* Altura total */
+  overflow: auto; /* Habilita a rolagem se o conteúdo for maior que o modal */
+  background-color: rgba(0, 0, 0, 0.4); /* Fundo escuro semi-transparente */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-left: auto; /* Centraliza verticalmente com uma margem superior de 15% */
+  right: 10px;
+  top: 50px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Largura do conteúdo do modal */
+  height: 70%;
+  animation-name: slide-down; /* Nome da animação */
+  animation-duration: 0.5s; /* Duração da animação */
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -300px; /* Define a posição inicial do modal */
+    opacity: 0; /* Define a opacidade inicial do modal */
+  }
+  to {
+    margin-top: 0; /* Define a posição final do modal */
+    opacity: 1; /* Define a opacidade final do modal */
+  }
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .user_option {
   display: -webkit-box;
   display: -ms-flexbox;
