@@ -5,10 +5,20 @@ body {
   background-color: #ebebeb;
   overflow-x: hidden;
 }
-@font-face {
+
+/* @font-face {
   font-family: BebasNeue-Regular;
   src: url(/fonts/BebasNeue-Regular.otf);
+  
+} */
+
+@font-face {
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  font-family: 'Bebas Neue', sans-serif;
+  
 }
+
+
 
 /* @font-face{
   font-family: "ChunkFive-Regular";
@@ -41,7 +51,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'BebasNeue-Regular', cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .heading_container {
