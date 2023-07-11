@@ -6249,7 +6249,7 @@ a.close.disabled {
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
-    transition: none;
+    transition: none; 
   }
 }
 
@@ -6853,6 +6853,7 @@ button.bg-dark:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important;
   }
+
 }
 
 @media (min-width: 1200px) {
