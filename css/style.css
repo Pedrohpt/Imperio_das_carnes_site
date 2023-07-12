@@ -598,6 +598,7 @@ color: white;
 
 .offer_section .box .detail-box a:hover {
   background-color: #ff0000;
+  transform: scale(1.1);
 }
 
 .offer_section .box .detail-box a svg {
@@ -1149,6 +1150,11 @@ color: white;
 .bt-whatsApp{
   box-shadow: 4px 4px 4px 0 rgba(44, 44, 44, 0.349);
   border-radius: 50%;
+  transition: 200ms;
+}
+
+.bt-whatsApp:hover{
+  transform: scale(1.1);
 }
 
 #msg1{
