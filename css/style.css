@@ -638,13 +638,19 @@ color: white;
           justify-content: center;
   list-style-type: none;
   margin: 45px 0 20px 0;
+  transition: 200ms;
 }
 
 .food_section .filters_menu li {
   padding: 7px 25px;
   cursor: pointer;
   border-radius: 25px;
+  transition: 200ms;
 }
+
+.food_section .filters_menu li:hover{
+  transform: scale(1.1);
+} 
 
 .food_section .filters_menu li.active {
   background-color: #222831;
@@ -764,8 +770,8 @@ color: white;
   border: none;
 }
 
-.food_section .btn-box a:hover {
-  background-color: #ff0000;
+.food_section .btn-box :hover {
+  background-color: #ff4e4e;
 }
 
 .about_section {
@@ -837,6 +843,10 @@ color: white;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.form_container{
+  display: inline;
 }
 
 .book_section .form_container .form-control::-webkit-input-placeholder {
