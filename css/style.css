@@ -232,9 +232,17 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #ffbe33;
+  color: #ff0202;
 }
 
+#menulista{
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#menulista:hover{
+  color: #ff0202;
+}
 .modal {
   display: none; /* Esconde o modal por padrão */
   position: fixed; /* Posicionamento fixo para ficar no topo */
