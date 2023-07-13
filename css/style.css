@@ -583,16 +583,6 @@ color: white;
   color: #ffffff;
 }
 
-#avaliacao{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 400px;
-}
-
-/* #descricao{
-margin-left: 50%;
-} */
 .offer_section .box .img-box {
   width: 175px;
   min-width: 175px;
