@@ -111,6 +111,8 @@ a:focus {
           box-shadow: none;
 }
 
+
+
 /*header section*/
 .hero_area {
   position: relative;
@@ -1187,14 +1189,24 @@ color: white;
   margin: 0 2.5px;
   font-size: 18px;
 }
+#formapagamentos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgpagamentos{
+  display: flex;
+  width: 70px;
+  margin-top: 6px;
+}
 
 .footer_section .footer_social a:hover {
   color: #ff0000;
 }
 
 .footer_section .footer-info {
-  text-align: center;
-  margin-top: 25px;
+  text-align:left;
+  margin-top: 20px;
 }
 
 .footer_section .footer-info p {
