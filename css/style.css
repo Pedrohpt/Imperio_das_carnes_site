@@ -231,6 +231,9 @@ a:focus {
   margin: 0 10px;
 }
 
+#fundomapa{
+  background-color: #222831;
+}
 .custom_nav-container .nav_search-btn:hover {
   color: #ff0202;
 }
@@ -429,6 +432,21 @@ color: white;
   transition: all 0.3s;
 }
 
+.estilizacaobotao{
+  padding: 8px 30px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 45px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.estilizacaobotao:hover{
+  background-color: #ff5858;
+  transform: scale(1.05);
+}
+
 .custom_nav-container .navbar-toggler span::after {
   top: 10px;
 }
@@ -616,7 +634,7 @@ color: white;
   fill: #ffffff;
 }
 
-.offer_section .box:hover .img-box img {
+.offer_section .img-box:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -877,6 +895,7 @@ color: white;
   height: 445px;
   border-radius: 10px;
   overflow: hidden;
+  
 }
 
 .book_section .map_container #googleMap {
@@ -979,6 +998,15 @@ color: white;
   border-radius: 100%;
 }
 
+.owl-prev:hover{
+  background-color: #ff5858;
+  transform: scale(1.05);
+}
+.owl-next:hover{
+  background-color: #ff5858;
+  transform: scale(1.05);
+}
+
 /* client section end */
 .contact_section .heading_container {
   margin-bottom: 45px;
@@ -1064,7 +1092,8 @@ color: white;
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
 }
 
 .footer_section p {
@@ -1073,6 +1102,7 @@ color: white;
 
 .footer_section .footer-col {
   margin-bottom: 30px;
+  margin-right: -250px;
 }
 
 .footer_section .footer_contact .contact_link_box {
@@ -1106,6 +1136,12 @@ color: white;
   color: #ffffff;
 }
 
+.rodape{
+  margin-left: -450px;
+  margin-right: -450px;
+  display: flex;
+  flex-direction: row;
+}
 .footer_section .footer_social {
   display: -webkit-box;
   display: -ms-flexbox;
