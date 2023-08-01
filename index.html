@@ -99,11 +99,20 @@
                 </div>
               </div>
 
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+              <div class="dropdown">
+                <button class="btn my-2 my-sm-0 nav_search-btn dropbtn" onclick="myFunction()">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="#bovinos">Bovinos</a>
+                  <a href="#suinos">Suinos</a>
+                  <a href="#aves">Aves</a>
+                  <a href="#preparados">Preparados</a>
+                  
+                </div>
+              </div>
+
               <a href="" class="order_online">
                 Peça Online
               </a>
@@ -319,7 +328,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Fraldinha')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -345,7 +354,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Picanha')" alt="Adicionar a lista">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -371,7 +380,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('T-Bone')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -397,7 +406,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Bacon')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -423,7 +432,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Lombo')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -449,7 +458,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Bisteca')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -475,7 +484,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Coxinha da asa')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -501,7 +510,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('File de frango')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -527,7 +536,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Coração de galinha')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -553,7 +562,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Bife a role')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -579,7 +588,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('almondegas')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -605,7 +614,7 @@
                       R$ 99,99
                     </h6>
                     <a onclick="adicionarItem('Costela recheada')">
-                      <i class="fa-solid fa-list"></i>
+                      <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
                     </a>
                   </div>
                 </div>
@@ -745,9 +754,12 @@
                   desde carnes de alta qualidade até espetinhos deliciosos. Sem dúvidas, o Império das Carnes é o lugar
                   perfeito para os amantes de carne, aproveitem de uma experiência única!"
                 </p>
+                <div>
                 <h6>
                   Gislene Soares
                 </h6>
+                <i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                </div>
                 <p>
                   Betim - MG
                 </p>
@@ -768,9 +780,12 @@
                   gelada. A equipe é super atenciosa e prestativa, sempre pronta para atender às minhas necessidades.
                   uma experiência única e saborosa!"
                 </p>
+                <div>
                 <h6>
                   Nelson
                 </h6>
+                <i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+                </div>
                 <p>
                   Venda Nova - MG
                 </p>
@@ -972,7 +987,7 @@
   <!-- End Google Map -->
 
   <script src="js/lista.js"></script>
-
+  <script src="js/search.js"></script>
 </body>
 
 </html>
